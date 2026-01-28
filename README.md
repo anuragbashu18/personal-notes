@@ -16,9 +16,9 @@ In simple words, when computers are connected with each other — for example,
 it is called a computer network.
 
 Examples:-------
-        -Home Wi-Fi network
-        -College computer lab network
-        -Office LAN network
+        -Home Wi-Fi network,
+        -College computer lab network,
+        -Office LAN network,
 
 ## internet 
 
@@ -31,8 +31,8 @@ The Internet is a network of networks.
 It is used to access information and communicate online.
 
 Uses of the Internet:------
-             - Browsing websites
-              -Sending emails
-             - Online communication (chat, video calls)
-              -Online learning, payments, and entertainment
+             - Browsing websites,
+              -Sending emails,
+             - Online communication (chat, video calls),
+              -Online learning, payments, and entertainment.
 
