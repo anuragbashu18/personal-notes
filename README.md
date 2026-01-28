@@ -13,7 +13,6 @@ In simple words, when computers are connected with each other — for example,
    my computer connected to my friend’s computer, or
    my computer connected to my home Wi-Fi
 
-it is called a computer network.
 
 Examples:
 
@@ -33,12 +32,12 @@ The Internet is a network of networks.
 
 It is used to access information and communicate online.
 
-Uses of the Internet:------
-       - Browsing websites,
+Uses of the Internet:----
+ - Browsing websites,
              
-       -Sending emails,
+  -Sending emails,
               
-       - Online communication (chat, video calls),
+ - Online communication (chat, video calls),
              
-       -Online learning, payments, and entertainment.
+  -Online learning, payments, and entertainment.
 
