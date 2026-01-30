@@ -1,0 +1,210 @@
+
+## Networking Basics
+
+## These are my personal notes while learning networking fundamentals
+
+# Computer Network----
+A computer network is a group of computers and devices connected to each other to share data and resources.
+
+In simple words, when computers are connected with each other — for example, my computer connected to my friend’s computer, or my computer connected to my home Wi-Fi
+
+## Examples:
+
+Home Wi-Fi network
+
+College computer lab network
+
+Office LAN network
+
+## INTERNET
+
+The Internet is the connection of multiple computer networks across regions, countries, or worldwide.
+
+In simple terms:
+
+The Internet is a network of networks.
+
+It is used to access information and communicate online.
+
+## Uses of the Internet:----
+
+Browsing websites,
+
+Sending emails,
+
+Online communication (chat, video calls),
+
+Online learning, payments, and entertainment.
+
+## important 
+  you take a example of google what do you think how networks work here 
+
+ ## Very Important line
+
+ Google uses TCP for reliable services like Search, Gmail, and Drive, while UDP is used for real-time services like YouTube streaming and Google Meet.
+
+ ### When you search on Google 
+
+Protocols used:  HTTPS over TCP
+
+What happens:---
+
+You type google.com
+
+Browser sends HTTPS request
+
+HTTPS runs on TCP
+
+TCP ensures:---
+
+All data reaches safely
+
+No packet missing
+
+Google server replies back
+
+## Gmail / Google Drive 
+
+Protocols used:  HTTPS over TCP
+
+Why?
+
+Emails & files are critical
+
+Data loss  unacceptable
+
+Security  required
+
+### HTTPS gives:
+
+Encryption
+
+Authentication
+
+Integrity
+
+# In short:
+
+Emails & files = Secure TCP
+
+## Why TCP here?
+
+Search results must be accurate
+
+Missing data is not allowed
+
+## In short:
+
+Google Search = HTTPS → TCP
+
+# one concern that why HTTPS use over TCP(in example like google )----
+
+    because https provide security - encryption,authentication,integrity 
+
+    imagine you connect with public wifi , without https only tcp what happens your username or password will be visible and also may be possible data is stolen , man in the middle attcak will be happen , also cookies can be stolen 
+
+    if i used https over tcp then our data is safe 
+
+   # example--- 
+
+    if i connected to public wifi then we use browser for something like searching google.com
+
+    so here https works
+
+    https starts and check TLS verification
+
+    it checks server have certification valid or trusted
+
+    if valid then it allow to use and it is safe to use
+
+    https does not check wifi network but it secure the data between user and server (end to end)
+
+    if any unwanted or any kind of situation will happen then browser show warning and say “your connection is not private”
+
+    when we use https and i open any browser then MITM attack is not possible if the certificate is valid and no browser warning is ignored
+
+    because it cant see our data like username, password
+
+    they only see encrypted packets 
+
+
+
+## TCP (RANSMISSION CONTROL PROTOCOL)
+
+    the idea is it will insure that data will reach its destination not be corrupted on the way 
+
+    so if you want to share data completely to someone in an applocation that applicaation is used TCP 
+
+   # Characteristics:
+
+    Connection-oriented
+
+    Data order maintain
+
+    Packet loss hua → resend
+
+   # Used for:
+
+    HTTP / HTTPS   
+
+    Website login
+
+    File download
+
+    Email sending (SMTP, IMAP)
+
+    File transfer
+
+    Database communication
+
+    
+    # “Jahan data important hai → TCP”
+
+## UDP (USER DATAGRAM PROTOCOL)
+you will not care about data is reaching in its destination or not  whomever you want to send the data 
+
+example like video conferencing not all data ,totally fine bythis 
+
+# Use hota hai jab speed > accuracy
+
+# Characteristics:
+
+Connectionless
+
+No resend
+
+Faster than TCP
+
+# Used for:
+
+Video calls (Zoom, Meet)
+
+Live streaming
+
+DNS queries
+
+Online gaming
+
+# important (connection vs connectionless oriented)
+ 
+  connection--
+   
+   first connection establish then sends the data 
+      if data is not received  then resend the data ,because data order is maintened  
+      example--email sending ,login any systems etc
+
+   # How it works:
+
+    Client says: Hello, can I connect?
+
+    Server says: Yes
+
+    Client says: Okay, let’s start
+
+  connectionless--
+   
+   direct sends the data 
+    it dont care about data is reached at its destination or not 
+    example-- live streaming , video call or online communcation 
+
+ 
