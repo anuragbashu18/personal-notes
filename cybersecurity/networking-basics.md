@@ -320,10 +320,80 @@ Online gaming
 
 - Packet internet par send ho jaata hai.
 
+* Receiver side par------>
+
+* Receiver ka OS kernel packets receive karta hai.
+
+* IP check karta hai address.
+
+* TCP packets ko sahi order me jodta hai.
+
+* Poora data app ko de deta hai.
+
+* App message screen par dikha deta hai.
+
+# how exactly have a work of TCP/IP---
+
+  - TCP aur IP – different but together
+
+  - TCP aur IP dono alag protocols hain.
+
+  - TCP ka kaam:--->>
+
+  - Data ko todna (segments)
+
+  - Order maintain karna
+
+  - Data sahi pahunch raha hai ya nahi check karna
+
+  - IP ka kaam:--->>
+
+  - Source aur destination IP address dena
+
+  - Packet ko sahi device tak route karna
+
+  - TCP data handle karta hai,
+
+  - IP address handle karta hai.
+
+  - Dono milkar data ko internet par bhejte hain.
+
+
+# important note--
+
+ IF i have a big data convert to packets and i have many packet so each packet have differnet source ip and destination ip
+
+  so answer is NO , beacause if i put different ip for source and destination then packets are mismatch not exactly know  which packet belongs to which order  so , i have to write same ip in each packets so in destination all packets are combine and give user origial data.
+
+* EXAMPLE----
+  
+  Tumhara IP: 10.1.1.5 (like your computer ip )
+  Friend ka IP: 20.2.2.8 ( frieind computer ip)
+
+  Tum “HELLO WORLD” bhejte ho → 3 packets bante hain:
+
+  Packet 1 → Source IP: 10.1.1.5 | Destination IP: 20.2.2.8
+
+  Packet 2 → Source IP: 10.1.1.5 | Destination IP: 20.2.2.8
+
+  Packet 3 → Source IP: 10.1.1.5 | Destination IP: 20.2.2.8
+
+  ✔ IP same, ✔ packet number different
+
+
+
 
 # conclusion---
 
 - OS kernel (TCP/IP stack) converts data into packets.
+
+
+
+## IP ADDRESS AND PORT NUMBER ---
+
+* ip address identify the device , like which device sending the data.
+
+* port number identify the application in that device
 
 
 
