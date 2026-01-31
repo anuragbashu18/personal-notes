@@ -232,3 +232,47 @@ Online gaming
  # data send as encypted form 
  # attack is rarely possible 
  # it is mostly used in modern technology
+
+
+
+## PACKETS--
+  
+  A packet is small or chunks of data (or, small pieces of data )
+  
+  * when i have a big data it converted into packets (chunks of data ) and at destination , all packets reassemble and form original data 
+
+  # Why data is sent as packets
+
+  Faster transmission of data 
+
+  Efficient use of network
+
+  Easy error handling (lost packet → resend)
+
+  Multiple routes possible (packet switching)
+
+
+
+Jab app data bhejta hai (example: “hello”)
+
+App (WhatsApp / Browser) sirf data banata hai.
+
+App data OS kernel ko deta hai.
+
+TCP:
+
+Data ko chhote parts me todta hai
+
+Order number lagata hai
+
+Check karta hai data sahi pahunch raha ya nahi
+
+IP:
+
+Data ke upar source IP aur destination IP lagata hai
+
+Ab data packet ban jaata hai.
+
+Packet network card (Wi-Fi / mobile data) ko diya jaata hai.
+
+Packet internet par send ho jaata hai.
