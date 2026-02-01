@@ -464,7 +464,7 @@ step9-- browser rendering ( we see the google homepage, html css images all that
 
   - 1 mbps (mega bits per seconds)= 1000000 bits/s
   - 1 gbps (gega bits per seconds)= 10^9 bits/s
-  - 1 kbps (kilo bits per seconds)= 1000 bits/s
+  - 1 kbps (kilo bits per seconds)= 1000 bits/
 
 
 
