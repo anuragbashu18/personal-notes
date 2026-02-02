@@ -437,9 +437,11 @@ step9-- browser rendering ( we see the google homepage, html css images all that
 
 
 
-## IP ADDRESS AND PORT NUMBER ---
+## IP ADDRESS 
 
 * ip address identify the device , like which device sending the data and which device receiving the data .
+
+## PORT NUMBER----
 
 * port number identify the  which application is sending or recieving the data  in that device.
 
@@ -465,6 +467,11 @@ step9-- browser rendering ( we see the google homepage, html css images all that
   - 1 mbps (mega bits per seconds)= 1000000 bits/s
   - 1 gbps (gega bits per seconds)= 10^9 bits/s
   - 1 kbps (kilo bits per seconds)= 1000 bits/s
+
+
+  ## how network connected and communicated  with each other across continent?
+
+  so answer is under the ocean across contry whaich is fibre wire ( you can visit submarine cable in google)
 
 
 
