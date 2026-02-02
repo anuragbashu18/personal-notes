@@ -473,7 +473,11 @@ step9-- browser rendering ( we see the google homepage, html css images all that
 
   * so answer is under the ocean across contry whaich is fibre optic cable ( you can visit submarine cable in google) 
 
-  * you have a question like why need of cable underwater if satelite is there beacause underwatercable is faster than satelite and more reliable and carry 95%+ of the worldsinternet traffic.
+  * you have a question like why need of cable underwater if satelite is there beacause underwatercable is faster than satelite and more reliable and carry 95%+ of the world's internet traffic.
+
+  ## LAN
+
+
   
  
 
