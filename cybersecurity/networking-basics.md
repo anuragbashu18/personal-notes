@@ -480,6 +480,14 @@ step9-- browser rendering ( we see the google homepage, html css images all that
   * LAN is a network that connects computers and devices within a small geographical area.
 
   * it is high sped more secure.
+
+    ex-- Laptop
+
+    Mobile
+
+    Smart TV
+
+    Wi-Fi router
   
 
 
